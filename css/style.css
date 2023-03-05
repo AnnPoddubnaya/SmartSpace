@@ -136,6 +136,26 @@ main {
     text-decoration: underline;
 }
 
+.header__menu-bar {
+    position: fixed;
+    right: 5%;
+    top: 40%;
+}
+
+.menu-bar-header {}
+
+.menu-bar-header__items {}
+
+.menu-bar-header__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+}
+
+.menu-bar-header__list {}
+
+.menu-bar-header__link {}
+
 /* ==================   block  ================= */
 .block {
     padding: 0 0 100px 0;
@@ -763,6 +783,7 @@ main {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
+    gap: 3px;
     color: #dcdcdc;
     cursor: pointer;
 }
