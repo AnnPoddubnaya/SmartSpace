@@ -222,11 +222,13 @@ main {
     width: 188px;
     height: 86px;
     background: #F85A47;
+    color: #FFFFFF;
 }
 
 .form__button:hover {
     background: #ee2d18;
     transition: all 0.5s;
+
 }
 
 .block__slider {
@@ -298,6 +300,11 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     column-gap: 5px;
+}
+
+.partners__item:hover {
+    transform: scale(1.1);
+    transition: .5s;
 }
 
 .partners__item img {
@@ -376,14 +383,36 @@ main {
     box-shadow: 0px 100px 80px rgba(150, 114, 255, 0.07), 0px 64.8148px 46.8519px rgba(150, 114, 255, 0.0531481), 0px 38.5185px 25.4815px rgba(150, 114, 255, 0.0425185), 0px 20px 13px rgba(150, 114, 255, 0.035), 0px 8.14815px 6.51852px rgba(150, 114, 255, 0.0274815), 0px 1.85185px 3.14815px rgba(150, 114, 255, 0.0168519);
 }
 
+.item-how-works__image:hover img {
+    transition: .6s;
+    transform: rotate(360deg);
+
+}
+
+.item-how-works__image_one:hover {
+    background: #7a50f9;
+    transition: .6s;
+}
+
 .item-how-works__image_two {
     background: #4DDFFD;
     box-shadow: 0px 100px 80px rgba(77, 223, 253, 0.07), 0px 64.8148px 46.8519px rgba(77, 223, 253, 0.0531481), 0px 38.5185px 25.4815px rgba(77, 223, 253, 0.0425185), 0px 20px 13px rgba(77, 223, 253, 0.035), 0px 8.14815px 6.51852px rgba(77, 223, 253, 0.0274815), 0px 1.85185px 3.14815px rgba(77, 223, 253, 0.0168519);
 }
 
+.item-how-works__image_two:hover {
+    background: #29c6e6;
+    transition: .6s;
+
+}
+
 .item-how-works__image_three {
     background: #F2B8EC;
     box-shadow: 0px 100px 80px rgba(242, 184, 236, 0.07), 0px 64.8148px 46.8519px rgba(242, 184, 236, 0.0531481), 0px 38.5185px 25.4815px rgba(242, 184, 236, 0.0425185), 0px 20px 13px rgba(242, 184, 236, 0.035), 0px 8.14815px 6.51852px rgba(242, 184, 236, 0.0274815), 0px 1.85185px 3.14815px rgba(242, 184, 236, 0.0168519);
+}
+
+.item-how-works__image_three:hover {
+    background: #f18de7;
+    transition: .6s;
 }
 
 .item-how-works__title {
@@ -443,6 +472,7 @@ main {
 .header-deals__button:hover {
     background: #ee2d18;
     transition: all 0.5s;
+
 }
 
 .tabs-deals__nav {
@@ -464,7 +494,7 @@ main {
 
 .tabs-deals__button:hover {
     color: #F85A47;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .tabs-deals__button:hover::after {
@@ -475,7 +505,6 @@ main {
     background-color: #F85A47;
     bottom: -3px;
     display: block;
-    transition: all 0.5s;
     left: 0;
 }
 
@@ -633,7 +662,7 @@ main {
 
 .contant-featured__button:hover {
     background: #ee2d18;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .opions-fiatured {}
@@ -703,6 +732,11 @@ main {
     flex-wrap: wrap;
 
     gap: 30px 80px;
+}
+
+.partners-reviews__item:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .reviews__info {
