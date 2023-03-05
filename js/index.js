@@ -37,3 +37,14 @@ document.addEventListener('click', (e) => {
 
     }
 });
+
+//rating
+
+const stars = document.querySelectorAll('.star');
+console.log(stars);
+
+stars.forEach(item => {
+    item.addEventListener('click', () => {
+        item.parentNode.dataset.items = item.dataset.item
+    })
+})

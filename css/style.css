@@ -725,9 +725,26 @@ main {
     text-decoration: none;
 }
 
-.item-reviews {}
+.item-reviews__rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    color: #dcdcdc;
+    cursor: pointer;
+}
 
-.item-reviews__rating {}
+.star:hover,
+.star:hover~.star {
+    color: #989898;
+}
+
+.item-reviews__rating[data-items='1'] .star:nth-child(n + 5),
+.item-reviews__rating[data-items='2'] .star:nth-child(n + 4),
+.item-reviews__rating[data-items='3'] .star:nth-child(n + 3),
+.item-reviews__rating[data-items='4'] .star:nth-child(n + 2),
+.item-reviews__rating[data-items='5'] .star:nth-child(n + 1) {
+    color: #FBB040;
+}
 
 .item-reviews__text {
     padding: 33px 0 53px 0;
